@@ -1,0 +1,40 @@
+<!Doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>commerce</title>
+<link rel="stylesheet" href="profil.css">
+</head>
+<body>
+<div class="conteneur">
+<h1>Creer un compte</h1>
+<form method="post" action="traitement.php">
+<label for ="nom">Username:</label><br>
+<input type="text" id="Username" placeholder="*Obligatoire">
+<br>
+<label for="mail">Adresse electronique:</label><br>
+<input type="email" id="mail" placeholder="*********@gmail.com">
+<br>
+<label for="contact">Numero:</label><br>
+<input type="number" id="contact" placeholder="+237---------">
+<br>
+<br>
+<button id = "btnConnect"><a href = "chatapp.html">Creer</a></button>
+</form>
+</div>
+<!--<script>
+    const bouton = document.getElementById('btnConnecter')
+    const inputNom = document.getElementById('Username')
+   bouton.addEventListener('click', () => {
+    const nom = input.value.trim();
+    if (nom) {
+        localStorage.setItem('chatapp',nom);
+        window.location.href = 'chatapp.html';
+    } else {
+        alert("Veuillez entrer un Username!")
+    }
+   })
+</script>-->
+</body>
+</html>
